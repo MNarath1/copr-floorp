@@ -32,7 +32,7 @@ with additional features aimed to make the overall Firefox Browser experince
 better than vanilla Firefox.
 
 Bugs related to Floorp should be reported directly to the Floorp GitHub repo: 
-<https://https://github.com/Floorp-Projects/Floorp/issues/>
+<https://github.com/Floorp-Projects/Floorp/issues/>
 
 Bugs related to this package should be reported at this Git project:
 <https://github.com/schumischumi/copr>
