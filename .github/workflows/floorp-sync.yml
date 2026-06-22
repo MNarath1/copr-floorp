@@ -37,7 +37,7 @@ jobs:
           ls /home/runner/work/copr-floorp/copr-floorp || true
           OLD_VER=$(grep '^Version:' /home/runner/work/copr-floorp/copr-floorp/floorp/floorp.spec | awk '{print $2}')
 
-          if ["%FLOORP_VER" != "null"]; then
+          if ["$FLOORP_VER" != "null"]; then
             sed -i '0,/Version:.*/s//Version:            '$FLOORP_VER'/' /home/runner/work/copr-floorp/copr-floorp/floorp/floorp.spec
           else
             echo "API got back null for version" >> $GITHUB_OUTPUT
